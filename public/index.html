@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#112e37"><title>幸福與財富指引</title><meta name="description" content="每天閱讀納瓦爾寶典的完整原文摘錄，把思考化為日常行動，保存每一次領悟。"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script></head>
+<body><div class="atmosphere" aria-hidden="true"></div><header><a class="brand" href="/" aria-label="幸福與財富指引首頁"><span class="mark">幸</span><span>幸福與財富指引<small>THE DAILY NAVAL</small></span></a><button id="historyOpen" class="quiet">歷史紀錄 <span aria-hidden="true">◷</span></button></header>
+<main><section class="intro"><div><p class="eyebrow" id="date">今天</p><h1>留一點時間，<br>給自己的思考。</h1><p class="lede">一段原文，一次停頓，一個可以開始的行動。</p></div><div class="day-seal" aria-hidden="true"><span id="month">OCT</span><strong id="dateNumber">04</strong><span id="weekday">SUNDAY</span></div></section>
+<nav class="controls" aria-label="產生指引"><button id="thoughtBtn" class="primary"><span aria-hidden="true">✦</span> 思維引導</button><button id="actionBtn" class="secondary" disabled><span aria-hidden="true">☷</span> 行動指引</button></nav>
+<div class="reading-meta"><span id="contextLabel">今日的一段提醒</span><span id="remaining">正在翻開書頁…</span></div>
+<section id="reading" class="paper" aria-labelledby="thoughtTitle"><div class="card-top"><span class="pill" id="theme">納瓦爾寶典</span><span id="thoughtTime" class="timestamp"></span></div><h2 id="thoughtTitle">讓想法，慢慢沉澱。</h2><blockquote id="quote">正在讀取今日摘錄…</blockquote><footer class="source"><span id="source">附件原文 · 保留完整段落</span><span>思維引導</span></footer></section>
+<section id="actions" aria-label="對應的行動指引"></section>
+<p class="hint" id="hint">思維引導會抽取未讀原文；行動指引會依目前這段原文提供實踐方式。</p>
+<section class="today-note" id="dailyNote" hidden><span>今日原文</span><p id="dailyPreview"></p><button id="dailyReturn" class="quiet">回看今日摘錄</button></section>
+<footer class="page-footer"><span>閱讀，是為了更清醒地生活。</span><span>納瓦爾寶典 · 每日練習</span></footer></main>
+<div id="status" class="status" role="status" aria-live="polite" hidden></div>
+<dialog id="history"><div class="history-head"><div><p class="eyebrow">YOUR READING JOURNAL</p><h2>歷史紀錄</h2></div><button id="historyClose" class="quiet" aria-label="關閉歷史紀錄">關閉 ✕</button></div><p class="history-description">每一次思考與行動，都在這裡留下痕跡。</p><div class="history-tools"><label>回顧日期 <select id="historyDay"></select></label><a class="quiet" href="/api/export" download>匯出紀錄</a></div><div id="historyItems"></div><button id="loadMore" class="secondary" hidden>載入更多</button><p class="storage-note">紀錄保存在伺服器資料庫，以本瀏覽器的識別 Cookie 區分使用者。請保留 Cookie；清除後將建立新身分。匯出可保存完整閱讀紀錄。</p></dialog>
+</body></html>
